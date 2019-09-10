@@ -32,18 +32,18 @@ body a {
 }
 
 #header .tabmenu li.selected a {
-    border: 1px solid white;
+    border: 1px solid #EDEFF1;
 }
 
 #header .tabmenu li a {
     background-color: #9e0b0f;
-    color: white;
+    color: #EDEFF1;
 }
 
 .hover.pagename.redditname a {
     display: table-cell;
     vertical-align: bottom;
-    color: #9e0b0f;
+    color: #9E0B0F;
 }
 
 .link {
@@ -54,13 +54,33 @@ body a {
     border-radius: 6px;
 }
 
+.link.last-clicked {
+    overflow: unset;
+}
+
+.buttons .give-gold.gold-give-gold {
+    color: #a79128 !important;
+}
+
+.entry .buttons li a {
+    color: #EDEFF1;
+}
+
 .comments-page .comment {
     background: #EDEFF1;
     margin: 8px 0 2px 15px !important;
 }
 
+.comments-page .comment .entry .buttons li a {
+    color: #222222;
+}
+
 .comment {
     background: #EDEFF1;
+}
+
+.comment .entry .buttons li a {
+    color: #222222
 }
 
 .side {
@@ -74,11 +94,11 @@ body a {
 }
 
 .entry a.title {
-    color: white;
+    color: #EDEFF1;
 }
 
 .entry a.title:visited {
-    color: Lightgrey;
+    color: #EDEFF1;
 }
 
 a.author {
@@ -135,19 +155,19 @@ div.titlebox span.number:after {
 }
 
 a.title {
-    color:#9E0B0F;
+    color:#EDEFF1;
 }
 
 a.title:hover {
-    color:Grey;
+    color:#EDEFF1;
 }
 
 a.title:visited {
-    color:Lightgrey;
+    color:#EDEFF1;
 }
 
 .side {
-    background-color: Lightgrey;
+    background-color: #EDEFF1;
 }
 
 .side a {
