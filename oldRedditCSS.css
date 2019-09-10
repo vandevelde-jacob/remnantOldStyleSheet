@@ -26,6 +26,10 @@ body label {
     text-transform: uppercase;
 }
 
+#header .tabmenu li a:hover {
+    color: #9E0B0F;
+}
+
 #header .tabmenu li.selected a {
     color: #9E0B0F;
     border: 1px solid;
@@ -66,14 +70,14 @@ body label {
 .link {
     background: #1B1B1B;
     padding: 15px;
-    border: 3px solid #2c3032;
+    border: 3px solid #222222;
     margin-right: 350px;
     border-radius: 6px;
 }
 
 .link.last-clicked {
     overflow: unset;
-    border: 3px solid #2c3032;
+    border: 3px dashed #222222;
 }
 
 .link .usertext-body .md {
@@ -166,6 +170,18 @@ div.titlebox span.number:after {
 
 .users-online .word, .users-online .number:after {
     content: " Fighting the Root" !important;
+}
+
+.stickied {
+    border: 3px dashed #9E0B0F;
+}
+
+.stickied:last-of-type {
+    margin-bottom: 15px;
+}
+
+.thing.stickied.link a.title {
+    color: #9E0B0F;
 }
 
 .thing .md a {
