@@ -63,7 +63,7 @@ body label {
 
 .hover.pagename.redditname a {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: initial;
     color: #EDEFF1;
 }
 
@@ -153,6 +153,61 @@ a.author {
     background-color : #FFFFFF;
 }
 
+.content h1 {
+    color: #EDEFF1;
+}
+
+body .formtabs-content {
+    color: #EDEFF1;
+}
+
+body .formtabs-content a {
+    color: #9E0B0F;
+}
+
+.formtabs-content {
+    border-top: 3px solid #9E0B0F;
+    margin-top: 10px;
+}
+
+.tabmenu.formtab li {
+    margin-right: 20px;
+}
+
+.tabmenu.formtab li a {
+    background-color: #000000;
+    color: #EDEFF1;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.tabmenu.formtab li a:hover {
+    color: #9E0B0F;
+}
+
+.tabmenu.formtab li.selected a {
+    color: #9E0B0F;
+    border: 1px solid;
+    background-color: #000000;
+    font-size: 100%;
+}
+
+.formtabs-content .infobar {
+    color: #222222;
+}
+
+.spacer .roundfield {
+    background-color: #1B1B1B;
+}
+
+.content.submit .info-notice {
+    background-color: #1B1B1B;
+    color: #EDEFF1;
+}
+
+.content.submit .info-notice a {
+    color: #9E0B0F;
+}
 
 /* Change 'readers' box value */
 div.titlebox span.word {
