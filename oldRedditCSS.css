@@ -84,6 +84,10 @@ body label {
     border-radius: 6px;
 }
 
+.link .usertext-body .md h1 {
+    color: #222222;
+}
+
 .buttons .give-gold.gold-give-gold {
     color: #a79128 !important;
 }
