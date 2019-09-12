@@ -284,6 +284,20 @@ a.title:visited {
     color: #9E0B0F;
 }
 
+/* Highlight Info */
+
+/* Selected links */
+div.entry.res-selected, .entry.res-selected .md-container {
+    background-color: rgba(255,255,255,.15) !important;
+}
+
+/* Selected comment */
+.commentarea div.entry.res-selected, .commentarea .entry.res-selected .md-container {
+    background-color: #DADADA !important;
+}
+
+
+
 /* Upvote arrow */
 .arrow.up {
     width: 0px;
